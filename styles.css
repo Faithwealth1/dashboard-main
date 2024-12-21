@@ -299,26 +299,72 @@ button {
 
 }
 
-/* xs */
-@media (min-width: 475px) { 
+/* Base styles (default for all screen sizes) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Breakpoint for 375px width */
+@media screen and (max-width: 375px) {
+  body {
+      background-color: lightblue;
   }
-
-/* sm */
-@media (min-width: 640px) {
 }
 
-/* md */
-@media (min-width: 768px) {
+/* Breakpoint for 412px width */
+@media screen and (max-width: 412px) {
+  body {
+      background-color: lightgreen;
+  }
 }
 
-/* lg */
-@media (min-width: 1024px) {
+/* Breakpoint for 414px width */
+@media screen and (max-width: 414px) {
+  body {
+      background-color: lightpink;
+  }
 }
 
-/* xl */
-@media (min-width: 1280px) {
+/* Breakpoint for 667px width */
+@media screen and (max-width: 667px) {
+  body {
+      background-color: lightyellow;
+  }
 }
 
-/* 2xl */
-@media (min-width: 1536px) {
+/* Breakpoint for 684px width */
+@media screen and (max-width: 684px) {
+  body {
+      background-color: lightcoral;
+  }
+}
+
+/* Breakpoint for 734px width */
+@media screen and (max-width: 734px) {
+  body {
+      background-color: lightgray;
+  }
+}
+
+/* Breakpoint for 736px width */
+@media screen and (max-width: 736px) {
+  body {
+      background-color: lightsalmon;
+  }
+}
+
+/* Breakpoint for 768px width */
+@media screen and (max-width: 768px) {
+  body {
+      background-color: lightsteelblue;
+  }
+}
+
+/* Breakpoint for 1024px width */
+@media screen and (max-width: 1024px) {
+  body {
+      background-color: lightgoldenrodyellow;
+  }
 }
